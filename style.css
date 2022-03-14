@@ -97,6 +97,20 @@ h5 {
     background-color: white;
 }
 
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+small {
+    color: rgb(148, 148, 148)
+}
+
 .snsbutton {
     font-size: 320%;
     color: rgb(114, 114, 114);
