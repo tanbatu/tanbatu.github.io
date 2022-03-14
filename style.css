@@ -80,8 +80,13 @@ h5 {
 }
 
 #left {
-    background-image: url(https://simpleshinobu.github.io/images/bg.jpg);
+    background-image: url(pexels-cottonbro-6892715.jpg);
     background-size: cover;
+    box-shadow: 0 0 5px #00000078
+}
+
+#left::before {
+    background-color: rgba(0, 0, 0, .5);
 }
 
 #main-content {
